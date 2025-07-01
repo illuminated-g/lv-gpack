@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Create from Folder.vi" Type="VI" URL="../Create from Folder.vi"/>
+	<Item Name="Fix HTTPS Url.vi" Type="VI" URL="../Fix HTTPS Url.vi"/>
 	<Item Name="Project Dependencies.vi" Type="VI" URL="../Project Dependencies.vi"/>
 </Library>

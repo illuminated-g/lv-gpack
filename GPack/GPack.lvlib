@@ -18,14 +18,15 @@
 	</Item>
 	<Item Name="Packages" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Build Cubedrop.vi" Type="VI" URL="../Build Cubedrop.vi"/>
 		<Item Name="Enumerate Package Classes.vi" Type="VI" URL="../Enumerate Package Classes.vi"/>
-		<Item Name="Factory Package Types.vi" Type="VI" URL="../Factory Package Types.vi"/>
 		<Item Name="Package Class FG.vi" Type="VI" URL="../Package Class FG.vi"/>
 		<Item Name="Package from File.vi" Type="VI" URL="../Package from File.vi"/>
 		<Item Name="Path Package Type.vi" Type="VI" URL="../Path Package Type.vi"/>
 	</Item>
 	<Item Name="GitPackage.lvclass" Type="LVClass" URL="../GitPackage/GitPackage.lvclass"/>
 	<Item Name="GPack File.lvclass" Type="LVClass" URL="../GPack File/GPack File.lvclass"/>
+	<Item Name="GPackPrefs.lvclass" Type="LVClass" URL="../GPackPrefs/GPackPrefs.lvclass"/>
 	<Item Name="GProj File.lvclass" Type="LVClass" URL="../GProj File/GProj File.lvclass"/>
 	<Item Name="LVProject.lvclass" Type="LVClass" URL="../LVProject/LVProject.lvclass"/>
 	<Item Name="PackageAbstract.lvclass" Type="LVClass" URL="../PackageAbstract/PackageAbstract.lvclass"/>
