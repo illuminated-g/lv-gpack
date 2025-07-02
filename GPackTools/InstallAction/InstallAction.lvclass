@@ -81,8 +81,17 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
+		<Item Name="Recurse Dependencies.vi" Type="VI" URL="../Recurse Dependencies.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!I%%&gt;197.L6'^P&lt;(-O&lt;(:M;7)637ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!!237ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!W1(!!(A!!*1N(5'&amp;D;SZM&gt;GRJ9B&gt;197.L97&gt;F17*T&gt;(*B9X1O&lt;(:D&lt;'&amp;T=Q!(5'&amp;D;W&amp;H:1"%1(!!(A!!+""(5'&amp;D;V2P&lt;WRT,GRW&lt;'FC&amp;5FO=X2B&lt;'R"9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!%%FO=X2B&lt;'R"9X2J&lt;WYA;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="Run Action.vi" Type="VI" URL="../Run Action.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!71%!!!@````]!"1B1=G^C&lt;'6N=Q!!2%"Q!"Y!!#A12V"B9WN5&lt;W^M=SZM&gt;GRJ9B6*&lt;H.U97RM17.U;7^O,GRW9WRB=X-!!"&amp;*&lt;H.U97RM17.U;7^O)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!F#U&gt;197.L,GRW&lt;'FC&amp;V"B9WNB:W6"9H.U=G&amp;D&gt;#ZM&gt;G.M98.T!!&gt;197.L97&gt;F!%2!=!!?!!!I%%&gt;197.L6'^P&lt;(-O&lt;(:M;7)637ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!!137ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;C"J&lt;A!!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!*!!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!71%!!!@````]!"1B1=G^C&lt;'6N=Q!!2%"Q!"Y!!#A12V"B9WN5&lt;W^M=SZM&gt;GRJ9B6*&lt;H.U97RM17.U;7^O,GRW9WRB=X-!!"&amp;*&lt;H.U97RM17.U;7^O)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!F#U&gt;197.L,GRW&lt;'FC&amp;V"B9WNB:W6"9H.U=G&amp;D&gt;#ZM&gt;G.M98.T!!&gt;197.L97&gt;F!%2!=!!?!!!I%%&gt;197.L6'^P&lt;(-O&lt;(:M;7)637ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!!137ZT&gt;'&amp;M&lt;%&amp;D&gt;'FP&lt;C"J&lt;A!!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*!!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
