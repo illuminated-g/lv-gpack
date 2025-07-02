@@ -13,6 +13,7 @@
 			<Item Name="All LVProj.vi" Type="VI" URL="../All LVProj.vi"/>
 			<Item Name="Enumerate Actions.vi" Type="VI" URL="../Enumerate Actions.vi"/>
 		</Item>
+		<Item Name="AddAction.lvclass" Type="LVClass" URL="../AddAction/AddAction.lvclass"/>
 		<Item Name="InitAction.lvclass" Type="LVClass" URL="../InitAction/InitAction.lvclass"/>
 		<Item Name="InstallAction.lvclass" Type="LVClass" URL="../InstallAction/InstallAction.lvclass"/>
 		<Item Name="UpdateAction.lvclass" Type="LVClass" URL="../UpdateAction/UpdateAction.lvclass"/>
