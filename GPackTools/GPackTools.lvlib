@@ -14,11 +14,12 @@
 			<Item Name="Enumerate Actions.vi" Type="VI" URL="../Enumerate Actions.vi"/>
 		</Item>
 		<Item Name="AddAction.lvclass" Type="LVClass" URL="../AddAction/AddAction.lvclass"/>
+		<Item Name="DependAction.lvclass" Type="LVClass" URL="../DependAction/DependAction.lvclass"/>
 		<Item Name="InitAction.lvclass" Type="LVClass" URL="../InitAction/InitAction.lvclass"/>
 		<Item Name="InstallAction.lvclass" Type="LVClass" URL="../InstallAction/InstallAction.lvclass"/>
-		<Item Name="UpdateAction.lvclass" Type="LVClass" URL="../UpdateAction/UpdateAction.lvclass"/>
 	</Item>
 	<Item Name="CLIAction.lvclass" Type="LVClass" URL="../CLIAction/CLIAction.lvclass"/>
+	<Item Name="CLILogger.lvclass" Type="LVClass" URL="../CLILogger/CLILogger.lvclass"/>
 	<Item Name="gp.bat" Type="Document" URL="../GPackCLI/gp.bat"/>
 	<Item Name="GPackAskPass.lvclass" Type="LVClass" URL="../GPackAskPass/GPackAskPass.lvclass"/>
 	<Item Name="GPackCLI.lvclass" Type="LVClass" URL="../GPackCLI/GPackCLI.lvclass"/>

@@ -9,3 +9,5 @@ rem echo Working folder: %cd%
 rem echo args: %*
 
 start "" /b /wait "%gpack%" "%cd%" %*
+
+echo Done

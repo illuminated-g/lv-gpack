@@ -13,6 +13,7 @@
 	</Item>
 	<Item Name="Interfaces" Type="Folder">
 		<Item Name="File.lvclass" Type="LVClass" URL="../File/File.lvclass"/>
+		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 		<Item Name="Package.lvclass" Type="LVClass" URL="../Package/Package.lvclass"/>
 		<Item Name="PackageInfo.lvclass" Type="LVClass" URL="../PackageInfo/PackageInfo.lvclass"/>
 	</Item>
