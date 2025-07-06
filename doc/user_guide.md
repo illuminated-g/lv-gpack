@@ -7,7 +7,9 @@ GPack is a command-line invoked tool (with GUIs) for managing dependencies for L
 GPack is currently distributed via GitHub releases in the GPack repository:
 [GPack Releases](https://github.com/illuminated-g/lv-gpack/releases)
 
-You should always download the latest version for the best support. You can unzip the build anywhere on your system and you will need to set the PATH environment variable to point at the folder containing gp.bat (installer to come in future releases).
+You should always download the latest version for the best support. You can unzip the build anywhere on your system. Once unzipped, you must run `bin/setup/gp-env.exe` as an administrator to ensure GPack is configured for use on your system. This ensures the location you placed GPack in is added to the path. Once you've run `gp-env.exe` you will need to close any terminals/applications that need to use GPack and relaunch them for the setup to take effect.
+
+New updates can be unpacked without needing to run `gp-env.exe` as long as you've used the same location. If you try running the setup again it will simply alert you that GPack is already available for use.
 
 ## Usage
 

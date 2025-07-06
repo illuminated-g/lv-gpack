@@ -20,6 +20,8 @@
 	</Item>
 	<Item Name="CLIAction.lvclass" Type="LVClass" URL="../CLIAction/CLIAction.lvclass"/>
 	<Item Name="CLILogger.lvclass" Type="LVClass" URL="../CLILogger/CLILogger.lvclass"/>
+	<Item Name="gp-env.ps1" Type="Document" URL="../gp-env.ps1"/>
+	<Item Name="gp-env.vi" Type="VI" URL="../gp-env.vi"/>
 	<Item Name="gp.bat" Type="Document" URL="../GPackCLI/gp.bat"/>
 	<Item Name="GPackAskPass.lvclass" Type="LVClass" URL="../GPackAskPass/GPackAskPass.lvclass"/>
 	<Item Name="GPackCLI.lvclass" Type="LVClass" URL="../GPackCLI/GPackCLI.lvclass"/>
