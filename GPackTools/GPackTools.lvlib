@@ -18,11 +18,13 @@
 		<Item Name="InitAction.lvclass" Type="LVClass" URL="../InitAction/InitAction.lvclass"/>
 		<Item Name="InstallAction.lvclass" Type="LVClass" URL="../InstallAction/InstallAction.lvclass"/>
 	</Item>
+	<Item Name="scripts" Type="Folder">
+		<Item Name="gp-env.ps1" Type="Document" URL="../gp-env.ps1"/>
+		<Item Name="gp-env.vi" Type="VI" URL="../gp-env.vi"/>
+		<Item Name="gp.bat" Type="Document" URL="../GPackCLI/gp.bat"/>
+	</Item>
 	<Item Name="CLIAction.lvclass" Type="LVClass" URL="../CLIAction/CLIAction.lvclass"/>
 	<Item Name="CLILogger.lvclass" Type="LVClass" URL="../CLILogger/CLILogger.lvclass"/>
-	<Item Name="gp-env.ps1" Type="Document" URL="../gp-env.ps1"/>
-	<Item Name="gp-env.vi" Type="VI" URL="../gp-env.vi"/>
-	<Item Name="gp.bat" Type="Document" URL="../GPackCLI/gp.bat"/>
 	<Item Name="GPackAskPass.lvclass" Type="LVClass" URL="../GPackAskPass/GPackAskPass.lvclass"/>
 	<Item Name="GPackCLI.lvclass" Type="LVClass" URL="../GPackCLI/GPackCLI.lvclass"/>
 </Library>

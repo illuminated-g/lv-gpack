@@ -138,11 +138,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{A414864D-9B91-4E5A-A8F2-97B2327FEAF5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GPackTools.lvlib/gp-env.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GPackTools.lvlib/scripts/gp-env.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GPackTools.lvlib/gp-env.ps1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GPackTools.lvlib/scripts/gp-env.ps1</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
@@ -173,7 +173,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0CA8D59-4A31-451F-977E-6E66CE94CC48}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">gp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPack CLI/bin/gp.exe</Property>
@@ -193,7 +193,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GPackTools.lvlib/gp.bat</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GPackTools.lvlib/scripts/gp.bat</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>

@@ -15,49 +15,86 @@ New updates can be unpacked without needing to run `gp-env.exe` as long as you'v
 
 GPack is run from the command line with `gp <action> [options]`. GPack creates a `.gpack` file in the repository folder to store information about the repo and its dependencies.
 
+## Global Options
+
+- *--nogui (TODO)*
+  - Doesn't show the log window and prevents any errors or other popups from displaying.
+
 ## Actions
 
 ### init
 Creates a basic .gpack file with no dependencies listed to start working with GPack tooling in the repository.
 
-#### Options
+*Options*
 
 - --license &lt;license expression&gt;
   - Specifies the [SPDX license](https://spdx.org/licenses/) identifier that the repository uses or can be a relative path starting with `./` to point to a license file, such as `./LICENSE`. Regardless of platform, always use forward slashes `/` for paths.
+  - Example: `gp init --license MIT`
 
 <hr>
 
 ### add
 Adds a dependency to the repository that does not exist on disk yet. The dependency can be any source that GPack supports but works best when that source also contains a .gpack file as it will install all the nested dependencies of that source.
 
-### Options
+### Example
+`gp add cti/drivers-lv-visa`
 
+*Options*
+
+- &lt;named package&gt;
+  - Specifies a named package indexed online to point at the full source URL
+  - Cannot be combined with --git or other source types.
+  - Example: `gp add cti/drivers-lv-visa`
 - --git &lt;repository URL&gt;
   - Specifies the source as a git repository source and the repository to add as a dependency.
-  - Supports the --branch option
+  - Example: `gp add https://github.com/illuminated-g/lv-volatus.git`
 - --branch &lt;branch name&gt;
   - Specifies the branch to checkout from the source, if the source supports branches.
   - If not specified, the latest commit of the default branch is used which is the default behavior of SCC tooling.
+  - Example: `gp add https://github.com/illuminated-g/lv-volatus.git --branch feature/module`
 
 <hr>
 
 ### depend
-Automatically updates dependencies listed in the .gpack file based on what is found in LabVIEW Project files in the repository. This action does not remove any dependency listings.
+Adds/updates dependencies listed in the .gpack file based on what is found in LabVIEW Project files in the repository or with more direct options. This action does not remove any dependency listings.
 
-GPack checks every file used in the .lvproj file and checks to see if the file path is supported as a source (such as being contained within a different Git repository). GPack will save the source type, location, relative path, and more information to the .gpack file so that subsequent install actions can restore the dependency properly.
+When specifying `--allproj` or `--project`, GPack checks every file used in the .lvproj file and checks to see if the file path is supported as a source (such as being contained within a different Git repository). GPack will save the source type, location, relative path, and more information to the .gpack file so that subsequent install actions can restore the dependency properly.
 
 This depend action should be run anytime SCC operations are performed on any dependencies to ensure the information stored in the .gpack file is kept up to date.
 
-### Options
+*Options*
 
 - --allproj
   - Looks at all .lvproj files in the repository to determine dependencies.
   - Cannot be combined with the --project option.
+  - Example: `gp depend --allproj`
 - --project &lt;relative .lvproj path&gt;
   - Updates dependencies based on a specific project within the repository.
   - Cannot be combined with the --allproj option.
+  - Enclose the project path in quotes if there are any spaces.
+  - Example: `gp depend --project "My Super Cool Project.lvproj"`
+- --folder &lt;relative folder path&gt;
+  - Adds the specified folder as a dependency in this folder's .gpack file.
+  - The specified folder must be supported by GPack such as a cloned git repository.
+  - If there are spaces in folder names, ensure the folder path is enclosed in double-quotes.
+  - Example: `gp depend --folder "../cti-drivers-lv-visa"`
 
 <hr>
 
 ### install
 Downloads all dependencies listed in the .gpack file.
+
+<hr>
+
+### *refresh (TODO)*
+Updates information about dependencies already in the .gpack file to match the state of dependencies on disk. Any dependencies that are missing on disk will be removed from the dependencies list. Dependencies such as git repositories will update to the currently checked out branch and commit.
+
+<hr>
+
+### *revert (TODO)*
+Resets all dependencies to the state specified in the .gpack file.
+
+**WARNING**: This will result in any untracked or uncommited work in dependency folders being lost!
+
+<hr>
+
