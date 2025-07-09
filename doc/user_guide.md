@@ -86,7 +86,7 @@ Downloads all dependencies listed in the .gpack file.
 
 <hr>
 
-### *sync (TODO)*
+### sync
 Synchronizes information about dependencies already in the .gpack file to match the state of dependencies on disk. Any dependencies that are missing on disk will be removed from the dependencies list. Dependencies such as git repositories will update to the currently checked out branch and commit of the dependency.
 
 <hr>
