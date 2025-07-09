@@ -173,7 +173,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0CA8D59-4A31-451F-977E-6E66CE94CC48}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">gp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPack CLI/bin/gp.exe</Property>

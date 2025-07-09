@@ -17,6 +17,7 @@
 		<Item Name="DependAction.lvclass" Type="LVClass" URL="../DependAction/DependAction.lvclass"/>
 		<Item Name="InitAction.lvclass" Type="LVClass" URL="../InitAction/InitAction.lvclass"/>
 		<Item Name="InstallAction.lvclass" Type="LVClass" URL="../InstallAction/InstallAction.lvclass"/>
+		<Item Name="SyncAction.lvclass" Type="LVClass" URL="../SyncAction/SyncAction.lvclass"/>
 	</Item>
 	<Item Name="scripts" Type="Folder">
 		<Item Name="gp-env.ps1" Type="Document" URL="../gp-env.ps1"/>

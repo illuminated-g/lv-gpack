@@ -162,5 +162,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
+		<Item Name="Update Dependencies.vi" Type="VI" URL="../Update Dependencies.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!F#U&gt;197.L,GRW&lt;'FC&amp;V"B9WNB:W6"9H.U=G&amp;D&gt;#ZM&gt;G.M98.T!".197.L97&gt;F17*T&gt;(*B9X1A&lt;X6U!#Z!=!!?!!!=#U&gt;197.L,GRW&lt;'FC$ERP:W&gt;F=CZM&gt;G.M98.T!!!'4'^H:W6S!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%*!=!!?!!!F#U&gt;197.L,GRW&lt;'FC&amp;V"B9WNB:W6"9H.U=G&amp;D&gt;#ZM&gt;G.M98.T!"*197.L97&gt;F17*T&gt;(*B9X1A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"A!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!"!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 	</Item>
 </LVClass>
