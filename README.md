@@ -5,6 +5,7 @@ Most of GPack is automating source code control interactions in a way that keeps
 
 It's your source code control operations, streamlined.
 
+## Documentation
 - [User Guide](doc/user_guide.md)
 - [Developer Guide](doc/dev_guide.md)
 - [Roadmap](doc/roadmap.md)

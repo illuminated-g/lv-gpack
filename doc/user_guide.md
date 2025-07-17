@@ -20,6 +20,9 @@ GPack is run from the command line with `gp <action> [options]`. GPack creates a
 - *--nogui (TODO)*
   - Doesn't show the log window and prevents any errors or other popups from displaying.
 
+- --ignore-dirty
+  - Perform action even if repository is dirty. Note that this means any local changes will not be reflected when adding the repo to another project.
+
 ## Actions
 
 ### init
