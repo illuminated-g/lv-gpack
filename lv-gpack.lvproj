@@ -173,7 +173,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0CA8D59-4A31-451F-977E-6E66CE94CC48}</Property>
-				<Property Name="Bld_version.build" Type="Int">55</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">gp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPack CLI/bin/gp.exe</Property>
@@ -186,7 +186,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gpack.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE348130-7F8A-4EF9-8498-3CE662B65B73}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD11C809-4C79-4A1D-BBF9-781798556742}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GPackTools.lvlib/GPackCLI.lvclass/Public/Main.vi</Property>
@@ -204,7 +204,6 @@
 				<Property Name="TgtF_productName" Type="Str">GPack CLI</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{07F9539E-663F-4CD9-856F-F7C20DE867A5}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">gp.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
