@@ -26,13 +26,20 @@ GPack is run from the command line with `gp <action> [options]`. GPack creates a
 ## Actions
 
 ### init
-Creates a basic .gpack file with no dependencies listed to start working with GPack tooling in the repository.
+Creates a basic .gpack file with no dependencies listed to start working with GPack tooling in the repository. Unless specifying the `--name` option, the init action will automatically determine the source type the folder is. At the time of writing this doc, this means the folder needs to be an initialized git repository with an origin remote configured (i.e. a clone of a new repo).
+
+#### Meta Packages
+
+Specifying the `--name` option enables creating a meta package that is used to track a handful of dependencies but isn't intended to have its own content. When doing an *add* or *depend* action on a named package, the dependencies listed under the named package are added to the package being updated; the named package itself isn't tracked in the updated project.
 
 *Options*
 
 - --license &lt;license expression&gt;
   - Specifies the [SPDX license](https://spdx.org/licenses/) identifier that the repository uses or can be a relative path starting with `./` to point to a license file, such as `./LICENSE`. Regardless of platform, always use forward slashes `/` for paths.
   - Example: `gp init --license MIT`
+- --name &lt;name&gt;
+  - Specifies a name for the package and creates the package as a named (meta) package.
+  - This is useful for specifying a list of dependencies that can be hosted on a package index server and easily added to other projects all at once.
 
 <hr>
 
