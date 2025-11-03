@@ -173,7 +173,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/GPackBuildSupport.lvlib/CLI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0CA8D59-4A31-451F-977E-6E66CE94CC48}</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">gp.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPack CLI/bin/gp.exe</Property>
@@ -186,7 +186,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gpack.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD11C809-4C79-4A1D-BBF9-781798556742}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8E6793D-8CE6-4853-BFFD-DCA0CB0CB371}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GPackTools.lvlib/GPackCLI.lvclass/Public/Main.vi</Property>
@@ -196,11 +196,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GPackTools.lvlib/scripts/gp.bat</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_companyName" Type="Str">IlluminatedG</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GPack CLI</Property>
 				<Property Name="TgtF_internalName" Type="Str">GPack CLI</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 NI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 IlluminatedG</Property>
 				<Property Name="TgtF_productName" Type="Str">GPack CLI</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{07F9539E-663F-4CD9-856F-F7C20DE867A5}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">gp.exe</Property>
